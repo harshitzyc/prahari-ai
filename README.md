@@ -43,4 +43,12 @@ cd backend
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
+uvicorn main:app --reload --port 
+
+**2. Frontend (Open a new terminal)**
+bash
+
+cd frontend
+npm install
+npm run dev
+
